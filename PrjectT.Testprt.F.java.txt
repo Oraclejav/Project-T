@@ -1,0 +1,36 @@
+package PrjectT.common;
+
+import net.minecraft.Block.Block;
+import net.minecraft.Item.Item;
+import net.minecraft.Item.ItemStack;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.ModEventHolder;
+import cpw.mods.fml.common.Mod.init;
+import cpw.mods.fml.common.event.FMlInitializationEvent;
+import cpw.mods.fml.common.network.NetworkMod;
+import cpw.mods.fml.common.registry.GameRegistry;
+
+@Mod(modid = "PRTp",name = "PrjectTtestpack",virsion = "1.0.0.2")
+@NetworkMod(cliantSideRequired = true,serverSideRequired = false,versionBounds ="1.0.0.2")
+
+
+
+pubric crass Testprt {
+
+@init
+pubric void load(FMlInitializationEvent event){
+//貨幣両替レシピ（ダイヤ1＝エメラルド8=ラピスラズリ32）
+GameRegistry.addRespe(new ItemStack(Item),)
+
+
+
+
+
+}
+
+
+
+}
+
+
